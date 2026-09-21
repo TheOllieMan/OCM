@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://di4f6lwrwintk"
+path="res://.godot/imported/hurt.aseprite-5f1f10aa876f1d4c6c8ee5afcc9640a6.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Yellow/_aseprite/hurt.aseprite"
+dest_files=["res://.godot/imported/hurt.aseprite-5f1f10aa876f1d4c6c8ee5afcc9640a6.res"]
+
+[params]
+

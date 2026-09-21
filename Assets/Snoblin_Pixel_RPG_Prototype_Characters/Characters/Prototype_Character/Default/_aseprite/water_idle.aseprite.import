@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dspvqwjisiryb"
+path="res://.godot/imported/water_idle.aseprite-8778c6a7f69806612494423ca6871a17.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Default/_aseprite/water_idle.aseprite"
+dest_files=["res://.godot/imported/water_idle.aseprite-8778c6a7f69806612494423ca6871a17.res"]
+
+[params]
+

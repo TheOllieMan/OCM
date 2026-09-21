@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://g5q60j6wwxbw"
+path="res://.godot/imported/water_hurt.aseprite-48ee722033362468f292fbf791be1db9.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Default/_aseprite/water_hurt.aseprite"
+dest_files=["res://.godot/imported/water_hurt.aseprite-48ee722033362468f292fbf791be1db9.res"]
+
+[params]
+

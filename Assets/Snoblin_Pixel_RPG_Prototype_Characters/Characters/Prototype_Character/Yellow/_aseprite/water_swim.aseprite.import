@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dhlfkjmmob864"
+path="res://.godot/imported/water_swim.aseprite-ef708b181e60dfe6c289b99830748abf.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Yellow/_aseprite/water_swim.aseprite"
+dest_files=["res://.godot/imported/water_swim.aseprite-ef708b181e60dfe6c289b99830748abf.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://do0q0bs1nnqrb"
+path="res://.godot/imported/water_sink.aseprite-e1258beb89a377d01fc1c8319e3feb4e.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Yellow/_aseprite/water_sink.aseprite"
+dest_files=["res://.godot/imported/water_sink.aseprite-e1258beb89a377d01fc1c8319e3feb4e.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cijf62db4wrqy"
+path="res://.godot/imported/walk.aseprite-5d85ca4a325dae40088a61e26cac4240.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Green/_aseprite/walk.aseprite"
+dest_files=["res://.godot/imported/walk.aseprite-5d85ca4a325dae40088a61e26cac4240.res"]
+
+[params]
+

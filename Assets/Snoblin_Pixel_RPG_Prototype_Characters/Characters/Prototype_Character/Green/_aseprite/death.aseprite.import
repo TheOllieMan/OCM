@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://3icq5cd5l56o"
+path="res://.godot/imported/death.aseprite-d34e06987ee81dbdd8654009d16cfd7c.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Green/_aseprite/death.aseprite"
+dest_files=["res://.godot/imported/death.aseprite-d34e06987ee81dbdd8654009d16cfd7c.res"]
+
+[params]
+

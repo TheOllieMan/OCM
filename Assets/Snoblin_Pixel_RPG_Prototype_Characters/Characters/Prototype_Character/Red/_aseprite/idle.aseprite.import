@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://j1ewdcbl58x1"
+path="res://.godot/imported/idle.aseprite-a396c9e573f026e4c87cde658a995935.res"
+
+[deps]
+
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Red/_aseprite/idle.aseprite"
+dest_files=["res://.godot/imported/idle.aseprite-a396c9e573f026e4c87cde658a995935.res"]
+
+[params]
+
