@@ -1,12 +1,7 @@
 [gd_scene format=3 uid="uid://c5iqft0b7p1in"]
 
-[ext_resource type="Script" uid="uid://bqi21uq7gtunv" path="res://character_body_2d.gd" id="1_ecvv1"]
-[ext_resource type="Texture2D" uid="uid://dwr15tg2pidbg" path="res://icon.svg" id="2_5scq6"]
-[ext_resource type="Texture2D" uid="uid://c86gy4kmtrxvn" path="res://20251110_121612.jpg" id="3_0sfh4"]
-[ext_resource type="PackedScene" uid="uid://di6jki2pj73cj" path="res://LightingSetup.tscn" id="4_3jxh6"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_5bjbi"]
-size = Vector2(20, 14)
+[ext_resource type="PackedScene" uid="uid://di6jki2pj73cj" path="res://Scenes/LightingSetup.tscn" id="1_a44sg"]
+[ext_resource type="PackedScene" uid="uid://dif52dsja670i" path="res://Scenes/Player_asset.tscn" id="2_4ct3s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uuc0u"]
 size = Vector2(9.457579, 6.9541016)
@@ -19,22 +14,6 @@ y_sort_enabled = true
 
 [node name="Y-SortObjects" type="Node" parent="." unique_id=2034552364]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="Y-SortObjects" unique_id=784905989]
-y_sort_enabled = true
-script = ExtResource("1_ecvv1")
-
-[node name="Sprite2D" type="Sprite2D" parent="Y-SortObjects/CharacterBody2D" unique_id=1502644610]
-scale = Vector2(0.383161, 0.383161)
-texture = ExtResource("2_5scq6")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Y-SortObjects/CharacterBody2D" unique_id=2146646307]
-scale = Vector2(0.619, 0.619)
-shape = SubResource("RectangleShape2D_5bjbi")
-
-[node name="Camera2D" type="Camera2D" parent="Y-SortObjects/CharacterBody2D/CollisionShape2D" unique_id=2042965845]
-scale = Vector2(1.6155089, 1.6155089)
-zoom = Vector2(1.55, 1.55)
-
 [node name="StaticBody2D" type="StaticBody2D" parent="Y-SortObjects" unique_id=1984675702]
 y_sort_enabled = true
 position = Vector2(89, 66.619995)
@@ -43,7 +22,6 @@ scale = Vector2(7.19, 7.19)
 [node name="Sprite2D" type="Sprite2D" parent="Y-SortObjects/StaticBody2D" unique_id=1563189399]
 position = Vector2(0, -0.02999878)
 scale = Vector2(0.0037342827, 0.002063679)
-texture = ExtResource("3_0sfh4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Y-SortObjects/StaticBody2D" unique_id=1152493894]
 position = Vector2(-1.9073486e-06, -1.9073486e-06)
@@ -58,7 +36,6 @@ scale = Vector2(7.19, 7.19)
 [node name="Sprite2D" type="Sprite2D" parent="Y-SortObjects/StaticBody2D3" unique_id=45401223]
 position = Vector2(2.6077032e-06, 5.364418e-07)
 scale = Vector2(0.0037342836, 0.0020636797)
-texture = ExtResource("3_0sfh4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Y-SortObjects/StaticBody2D3" unique_id=939757016]
 position = Vector2(-1.9073486e-06, -1.4305115e-06)
@@ -73,7 +50,6 @@ scale = Vector2(7.19, 7.19)
 [node name="Sprite2D" type="Sprite2D" parent="Y-SortObjects/StaticBody2D2" unique_id=672652792]
 position = Vector2(2.6077032e-06, 5.364418e-07)
 scale = Vector2(0.0037342836, 0.0020636797)
-texture = ExtResource("3_0sfh4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Y-SortObjects/StaticBody2D2" unique_id=248051514]
 position = Vector2(-1.9073486e-06, -1.4305115e-06)
@@ -87,12 +63,14 @@ scale = Vector2(0.045, 0.045)
 [node name="Sprite2D" type="Sprite2D" parent="Y-SortObjects/StaticBody2D2/StaticBody2D2" unique_id=448025477]
 position = Vector2(2.6077032e-06, 5.364418e-07)
 scale = Vector2(0.045, 0.045)
-texture = ExtResource("3_0sfh4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Y-SortObjects/StaticBody2D2/StaticBody2D2" unique_id=985148314]
 position = Vector2(-1.9073486e-06, -1.4305115e-06)
 scale = Vector2(0.045, 0.045)
 shape = SubResource("RectangleShape2D_uuc0u")
+
+[node name="Node2D2" parent="Y-SortObjects" unique_id=1952785853 instance=ExtResource("2_4ct3s")]
+position = Vector2(-41, 111)
 
 [node name="Node2D" type="Node2D" parent="." unique_id=254276551]
 position = Vector2(86, 140)
@@ -121,7 +99,7 @@ offset_bottom = 209.0
 position = Vector2(371, 27.5)
 shape = SubResource("RectangleShape2D_yh4yq")
 
-[node name="LightingSetup" parent="." unique_id=1950809445 instance=ExtResource("4_3jxh6")]
+[node name="LightingSetup" parent="." unique_id=1950809445 instance=ExtResource("1_a44sg")]
 position = Vector2(-270, -112)
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1198875602]

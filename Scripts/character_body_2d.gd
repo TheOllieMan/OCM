@@ -7,18 +7,46 @@ extends CharacterBody2D
 
 
 func _physics_process(delta):
-	var velocity = Vector2.ZERO
-	if Input.is_action_pressed("Up"):
-		velocity.y -= 1
-	if Input.is_action_pressed("Left"):
-		velocity.x -= 1
-	if Input.is_action_pressed("Right"):
-		velocity.x += 1
-	if Input.is_action_pressed("Down"):
-		velocity.y += 1
+	
+	velocity = Vector2.ZERO
+
+	Animate()
+
+
+	if velocity == Vector2.ZERO:
+		animated_sprite.stop()
+		return
+
+
 	# Set velocity based on direction and speed
 	velocity = velocity.normalized() * speed
-	position += velocity * delta
+	
+
+	move_and_slide()
+
+#Movement Animations
+func Animate():
+
+#Up
+	if Input.is_action_pressed("Up"):
+		velocity.y -= 1
+		animated_sprite.play("Walk_Up")
+
+#Left
+	elif Input.is_action_pressed("Left"):
+		velocity.x -= 1
+		animated_sprite.play("Walk_Left")
+		$AnimatedSprite2D.flip_h = velocity.x < 0
+
+#Right
+	elif Input.is_action_pressed("Right"):
+		velocity.x += 1
+		animated_sprite.play("Walk_Right")
+		$AnimatedSprite2D.flip_h = false
+
+#Down
+	elif Input.is_action_pressed("Down"):
+		velocity.y += 1
+		animated_sprite.play("Walk_Down")
 
 # Move and handle collisions
-#move_and_slide()
