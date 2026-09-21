@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c86gy4kmtrxvn"
-path="res://.godot/imported/20251110_121612.jpg-452cd78e74a61c816b5db4adf3c022a3.ctex"
+uid="uid://qbkcnospkuno"
+path="res://.godot/imported/idle.png-453d2b7a3a2eeacdb5b7c98dab439570.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://20251110_121612.jpg"
-dest_files=["res://.godot/imported/20251110_121612.jpg-452cd78e74a61c816b5db4adf3c022a3.ctex"]
+source_file="res://Assets/Snoblin_Pixel_RPG_Prototype_Characters/Characters/Prototype_Character/Default/idle.png"
+dest_files=["res://.godot/imported/idle.png-453d2b7a3a2eeacdb5b7c98dab439570.ctex"]
 
 [params]
 
