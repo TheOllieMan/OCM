@@ -163,32 +163,32 @@ b = Vector2(5.913044, 24.076187)
 
 [node name="Node2D" type="Node2D" unique_id=1952785853]
 
-[node name="Bobert" type="Area2D" parent="." unique_id=699083574]
+[node name="B0bert" type="Area2D" parent="." unique_id=699083574]
 position = Vector2(-227, 66)
 scale = Vector2(5.468767, 5.468767)
 script = ExtResource("1_4e4rp")
 
-[node name="Sprite2D" type="Sprite2D" parent="Bobert" unique_id=1489839759]
+[node name="Sprite2D" type="Sprite2D" parent="B0bert" unique_id=1489839759]
 texture_filter = 1
 texture_repeat = 1
 texture = ExtResource("1_wglhr")
 script = ExtResource("2_p5lru")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Bobert" unique_id=1693227809]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B0bert" unique_id=1693227809]
 position = Vector2(0, -0.18285657)
 shape = SubResource("CircleShape2D_yh4yq")
 
-[node name="HurtboxComponent" type="Area2D" parent="Bobert" unique_id=1303571899 node_paths=PackedStringArray("health_component")]
+[node name="HurtboxComponent" type="Area2D" parent="B0bert" unique_id=1303571899 node_paths=PackedStringArray("health_component")]
 script = ExtResource("4_jhwc6")
 health_component = NodePath("../HealthComponent")
 metadata/_custom_type_script = "uid://bxqqv03t78qdk"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Bobert/HurtboxComponent" unique_id=205476798]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B0bert/HurtboxComponent" unique_id=205476798]
 position = Vector2(0.36571318, 0.18285654)
 shape = SubResource("CircleShape2D_shqcg")
 debug_color = Color(0.93624115, 0.062943496, 0.6060355, 0.41960785)
 
-[node name="HealthComponent" type="Node" parent="Bobert" unique_id=930716285]
+[node name="HealthComponent" type="Node" parent="B0bert" unique_id=930716285]
 script = ExtResource("5_jveas")
 metadata/_custom_type_script = "uid://4bbx4h5dtk53"
 
@@ -208,7 +208,7 @@ position = Vector2(-7.342995, 2.705314)
 scale = Vector2(0.4577295, 0.35869566)
 sprite_frames = SubResource("SpriteFrames_uuc0u")
 animation = &"Walk_Left"
-frame_progress = 0.31356913
+frame_progress = 0.8744885
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1972492786]
 scale = Vector2(0.124870256, 0.124870256)
