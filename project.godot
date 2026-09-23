@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="OCM"
+config/name="OCM-Test"
 run/main_scene="uid://dif52dsja670i"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://Assets/icon.svg"
