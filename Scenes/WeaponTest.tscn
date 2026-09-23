@@ -1,0 +1,49 @@
+[gd_scene format=4 uid="uid://gkdguujtehoa"]
+
+[ext_resource type="Script" uid="uid://t4kv5uetugrf" path="res://Scripts/TestWeapon.gd" id="1_gmlj0"]
+
+[sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_jhwc6"]
+_data = PackedByteArray("AAADAAUAAAABAAAAEAAAABAAAAA4AAAAUklGRjAAAABXRUJQVlA4TCQAAAAvD8ADEA8wKFM0PPMf8CCTtgnsnZj5vyYzov8RVTN3Iqpm7gA=")
+size_override = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gmlj0"]
+size = Vector2(24.661343, 5.053901)
+
+[node name="Weapon" type="Area2D" unique_id=933285058]
+collision_layer = 8
+collision_mask = 16
+script = ExtResource("1_gmlj0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=305907151]
+texture_filter = 1
+position = Vector2(55.475845, 43.676327)
+scale = Vector2(6.1905193, 5.2904587)
+texture = SubResource("PortableCompressedTexture2D_jhwc6")
+metadata/_aseprite_wizard_interface_config_ = {
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"convert_fps_field": 60.0,
+"convert_ms_field": 16.0,
+"convert_to_fps": false,
+"embed_tex": true,
+"i_mode": 1,
+"keep_anim_length": false,
+"layers": [],
+"o_ex_p": "",
+"o_folder": "",
+"o_name": "",
+"only_visible": false,
+"player": "",
+"scale": "1.0",
+"slice": "",
+"source": "res://Assets/Stick.aseprite",
+"source_uid": 2683515838865204133
+}
+metadata/_aseprite_wizard_source_file_hash_ = "9939eb89ec5f539cb6e211cfa8aeed32"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1314749713]
+position = Vector2(54.97742, 41.52691)
+rotation = 0.6981317
+scale = Vector2(5.436, 6.347)
+shape = SubResource("RectangleShape2D_gmlj0")

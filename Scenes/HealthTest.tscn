@@ -1,8 +1,12 @@
 [gd_scene format=3 uid="uid://cffgh1gfteju0"]
 
-[ext_resource type="PackedScene" uid="uid://dif52dsja670i" path="res://Scenes/Player_asset.tscn" id="1_0mh3j"]
+[ext_resource type="PackedScene" uid="uid://bjj5n3ux32yjs" path="res://Scenes/EnemyTest.tscn" id="1_wdb7b"]
+[ext_resource type="PackedScene" uid="uid://gkdguujtehoa" path="res://Scenes/WeaponTest.tscn" id="2_sffk2"]
 
 [node name="HealthTest" type="Node2D" unique_id=199183126]
 
-[node name="Player&Robot Scene" parent="." unique_id=1952785853 instance=ExtResource("1_0mh3j")]
-position = Vector2(458, 249)
+[node name="B0bert" parent="." unique_id=1641081758 instance=ExtResource("1_wdb7b")]
+position = Vector2(145, 241)
+
+[node name="Weapon" parent="." unique_id=933285058 instance=ExtResource("2_sffk2")]
+position = Vector2(534, 249)
